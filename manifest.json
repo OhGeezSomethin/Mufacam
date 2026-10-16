@@ -1,0 +1,20 @@
+{
+    "name": "Mufasa Camera PWA",
+    "short_name": "MUFa Cam",
+    "start_url": ".",
+    "background_color": "#6d7983",
+    "theme_color": "#59636B",
+    "display": "standalone",
+    "icons": [
+        {
+            "src": "images/logo192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "images/logo512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
