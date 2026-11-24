@@ -1,4 +1,5 @@
-const CACHE = "cache-m-cam-v2";
+const CACHE_VER = "v1.0.2";
+const CACHE = `cache-m-cam-${CACHE_VER}`;
 const CACHE_FILES = [
     "./",
     "./index.html",
