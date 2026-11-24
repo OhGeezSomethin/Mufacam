@@ -11,9 +11,8 @@ const CACHE_FILES = [
 
 self.addEventListener("install", e =>{
     e.waitUntil(
-        caches.open(CACHE).then(cache => {
-            return cache.addAll(CACHE_FILES);
-        })
+        caches.open(CACHE).then((cache) => cache.addAll(CACHE_FILES))
+        .then(() => self.skipWaiting())
     );
 }); 
 
